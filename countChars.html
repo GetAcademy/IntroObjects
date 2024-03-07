@@ -18,12 +18,19 @@ Artisten har også avlyst en planlagt opptreden under Vinterfestuka i Narvik 12.
             // b: 0, // sier hvor mange a-er vi har
         };
 
+        // teller opp antall av hvert tegn
         for(let character of text){
             if(!characterCounts[character])characterCounts[character] = 0;
             characterCounts[character]++;
         }
 
-        console.log(characterCounts);
+        // gå gjennom alle tegn som er talt opp
+        for(let character in characterCounts){
+            const count = characterCounts[character]
+            console.log(`Det er ${count} forekomster av tegnet ${character}.`);
+        }
+
+        
 
 
 
