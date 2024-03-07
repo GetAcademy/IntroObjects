@@ -3,10 +3,9 @@
     - gjennomsnittfarge, gradient (liste), inv invertere. Endre lysere og mørkere. 
     - liste av tall inn => statistikk tilbake
     - tidsperiode i sekunder, minutter, timer
-- Hele modellen i et objekt
-- Objekter inne i objekter 
+- Objekter inne i objekter - Hele modellen i et objekt
 - Modellere virkeligheten, lister av objekter, neste time - men nå kan dere lage "alt"
 - Problemer med referansetyper, objekter og lister som parametre
   - Kan man beskytte verdiene ved å deklarere objektet som const?
-- null og undefined, hvilke feil det skaper
+  - null og undefined, hvilke feil det skaper
 - for in og objekter med arraysyntaks, feks telle ord
